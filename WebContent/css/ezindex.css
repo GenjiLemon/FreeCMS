@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main{
+	width:70%;
+	height: 800px;
+	margin: auto;
+	margin-top: 50px;
+	background:#C4B297;
+}
+.title{
+	font-size: 40px;
+	text-align: center;
+	padding: 20px 10px;
+	
+}
+.author{
+	text-align: center;
+	color: #3D3D3D;
+}
+.content{
+	padding: 20px 40px;
+}
+.last{
+	
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+}
+button{
+	width: 100px;
+	height: 50px;
+	border:2px solid ;
+	border-radius:5px;
+	
+}	
+button:hover{
+	cursor: pointer;
+}

@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main{
+	margin: auto; 
+	width:400px;
+	height: 600px;
+	border: 5px solid #000000;
+	border-radius: 15px;
+		
+}
+.title{
+	font-size: 60px;
+	text-align: center;
+	font-family: 黑体;
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+
+
+.formrow{
+	margin: 10px 20px;
+	display: flex;
+	flex-flow: row nowrap;
+	line-height: 50px;
+}
+.rowtitle{
+	font-size: 20px;
+	width: 30%;
+	text-align: right;
+}
+.rowinput{
+	width: 70px;
+}
+.formbuton{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content:space-around;
+	 align-items:baseline;
+	margin: 10px 20px;	
+}
+.formlast{
+	text-align: right;
+	margin-right: 20px;
+	margin: 10px 20px;
+}
+button{
+	width: 60px;
+	height: auto;
+	border:2px solid ;
+	border-radius:5px;
+	
+}	
+button:hover{
+	cursor: pointer;
+}
+	
